@@ -1,0 +1,19 @@
+{
+  "name": "product_catalog",
+  "version": "1.0.0",
+  "description": "An application to maintain a product catalog that offers a REST API.",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Faheem Khan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "superagent": "^6.1.0",
+    "superagent-as-promised": "^4.0.0"
+  }
+}
